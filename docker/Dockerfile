@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/jailucloz/EGC-12-19-migfue.git .
+RUN git clone https://github.com/jailucloz/EGC-12-19-mig.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
